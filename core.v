@@ -1,9 +1,8 @@
-//-----------------------------------------------------
-// This is my first Verilog Program
-// Design Name : hello_world
-// File Name : hello_world.v
-// Function : This program will print 'hello world'
-// Coder    : Deepak
+//----------------------------------------------------
+// Design Name : A simple transputer-like Core
+// File Name : core.v
+// Function : Implementation of a tiny core
+// Coder    : Jonathan May
 //-----------------------------------------------------
 
 module fconsts();
