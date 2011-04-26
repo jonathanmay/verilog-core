@@ -1,0 +1,37 @@
+Proposed instruction set
+
+Opcode Mnemonic Description
+====== ======== ===========
+0x     PFIX     PREFIX
+1x     LDAV	LOADBVAR
+2x     LDBV	LOADBVAR
+3x     LDAI	LOADALIT
+4x     LDBI	LOADBLIT
+5x     STAV	STOREAVAR
+6x     LDAIN	LOADAIND
+7x     STBIN	STOREBIND
+8x     JMP   	JUMP
+9x     JMPN	JUMPFALSE
+Ax     EQU  	EQUALALIT
+Bx     ADDI	ADDALIT
+Cx     ADJ 	ADJUST
+Dx     CALL	CALL
+Ex     OPR  	OPERATE
+
+
+x0     BOOT	BOOT
+x1     IN  	INPUT
+x2     OUT	OUTPUT
+x3     ALT	ALTERNATIVE
+x4     GT 	GREATER
+x5     SHL	SHIFTLEFT
+x6     SHR	SHIFTRIGHT
+x7     OR 	ORBITS
+x8     XOR	XORBITS
+x9     AND	ANDBITS
+xA     ADD	ADD
+xB     SUB	SUBTRACT
+xC     MUL	MULTIPLY
+xD     DIV	DIVIDE
+xE     REM	REMAINDER     
+xF     REV	REVERSE
