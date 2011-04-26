@@ -1,11 +1,11 @@
 ==============================
 RFC - Proposed instruction set
-=============================
+==============================
 
 Instruction table:
 
 +-------+----------+------------+
-|Opcode | Mnemonic | Description|
+| Code  | Mnemonic | Description|
 +=======+==========+============+
 | 0x    | PFIX     | PREFIX     |
 +-------+----------+------------+
