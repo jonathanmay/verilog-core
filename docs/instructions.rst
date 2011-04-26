@@ -1,5 +1,6 @@
 Proposed instruction set
 
+====== ======== ===========
 Opcode Mnemonic Description
 ====== ======== ===========
 0x     PFIX     PREFIX
@@ -17,8 +18,7 @@ Bx     ADDI	ADDALIT
 Cx     ADJ 	ADJUST
 Dx     CALL	CALL
 Ex     OPR  	OPERATE
-
-
+----- --------- ----------
 x0     BOOT	BOOT
 x1     IN  	INPUT
 x2     OUT	OUTPUT
@@ -35,3 +35,4 @@ xC     MUL	MULTIPLY
 xD     DIV	DIVIDE
 xE     REM	REMAINDER     
 xF     REV	REVERSE
+====== ======== ===========
