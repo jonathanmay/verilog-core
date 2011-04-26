@@ -72,4 +72,5 @@ Instruction table:
 | xF    | REV	   | REVERSE    |
 +-------+----------+------------+
 
-*Subject to change
+*Subject to change*
+
